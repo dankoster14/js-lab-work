@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Javascript: Event Listener</title>
   
-  <h1></h1>
+ 
   <style>
     /*
       Some very basic styles just to show the elements.
@@ -14,12 +14,14 @@
   </style>
 </head>
 <body>
-  <h1><span id=
+  <h1 id="my-header">Default Greeting</h1>
   <p>Hello, <span id="my-name">anonymous user</span>!</p>
 
   <form id="get-name" action="#" method="post">
     <label for="user-name">Enter name:</label>
     <input type="text" id="user-name" placeholder="Your name?">
+	<label for="user-greeting">Enter a greeting</label>
+	<input type="text" id="user-greeting" placeholder="Your Greeting">
     <input type="submit">
   </form>
 
